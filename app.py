@@ -15,7 +15,7 @@ with t2:
     st.markdown("**¡Bienvenido a mi primera aplicación web usan**")
 
 steps = st.tabs(["Introducción", "Datos", "Visualización"])
-df = pd.read_csv('Analisis_Innovador/Mision 2/penguins.csv')
+df = pd.read_csv('penguins.csv')
 print(df.info())
 
 
